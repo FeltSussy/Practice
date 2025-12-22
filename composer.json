@@ -1,0 +1,18 @@
+{
+    "name": "felt/practice",
+    "autoload": {
+        "psr-4": {
+            "Felt\\Practice\\": "src/"
+        },
+        "files": [
+            "src/StringUtils.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Pavel",
+            "email": "icebadass@gmail.com"
+        }
+    ],
+    "require": {}
+}
