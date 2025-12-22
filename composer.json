@@ -14,5 +14,7 @@
             "email": "icebadass@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "webmozart/assert": "^2.0"
+    }
 }
