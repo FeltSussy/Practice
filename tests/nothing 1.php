@@ -2,7 +2,7 @@
 
 namespace App\Solution;
 
-function getOrderCount($period)
+function getOrderCount(string $period)
 {
     $conn = new \PDO('sqlite:memory');
     $conn->setAttribute(\PDO::ATTR_DEFAULT_FETCH_MODE, \PDO::FETCH_ASSOC);
